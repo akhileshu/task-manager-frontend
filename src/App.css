@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+
+}
+.TaskAddForm{
+  max-width: 100vw;
 }
 
 .App-logo {
@@ -35,5 +39,34 @@
   }
   100% {
     transform: translateY(0px);
+  }
+}
+
+/* for error messages */
+.text-red-500,
+.errorMsg {
+  color: rgb(219, 73, 73);
+}
+
+
+/* for password input */
+
+/* for authform width responsiveness */
+.custom-container {
+  width: 50%; /* Default width for all screen sizes */
+
+  @media (max-width: 767px) { /* Smartphone screens and smaller */
+    width: 75%;
+  }
+}
+
+
+
+
+
+
+@media (max-width: 767px) {
+  body {
+    /* font-size: 1.5rem; */
   }
 }

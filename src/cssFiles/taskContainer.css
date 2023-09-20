@@ -1,0 +1,44 @@
+/* TaskContainer.css */
+.task-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+
+  background-color: #f9f9f9;
+  /* Add styles for hiding/showing details */
+  position: relative;
+  overflow: hidden;
+}
+
+.task-container h2 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.task-container p {
+  margin: 5px 0;
+}
+
+.task-container strong {
+  font-weight: bold;
+}
+.task-container .details {
+  /* position: absolute; */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  background-color: rgb(217, 217, 217);
+  padding: 10px;
+  
+  
+  /* display: block; */
+}
+.task-container .detailsBtn{
+    background-color: pink;
+    margin: 5px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
